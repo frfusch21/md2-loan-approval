@@ -1,0 +1,4 @@
+  Gender Married Dependents Education Self_Employed  ... CoapplicantIncome LoanAmount Loan_Amount_Term Credit_History Property_Area
+0      1       0          0         0             0  ...                 0        500              360              1             2
+
+[1 rows x 11 columns]
