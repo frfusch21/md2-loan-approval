@@ -38,5 +38,5 @@ def pred():
         return render_template('result.html', pred=str(prediction[0]), name=name)
 
 if __name__ == "__main__":
-    app.debug=False
+    app.debug=True
     app.run()
