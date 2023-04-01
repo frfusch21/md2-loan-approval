@@ -41,7 +41,7 @@ def predict(gender, married, dependent, education, self_employed, applicant_inco
     Lam = loanAmount / 1000
     cap = coApplicantIncome / 1000
      # making predictions
-    prediction = Random_Forest_model.predict([[gen, mar, dep, edu, sem, applicant_income, coApplicantIncome,
+    prediction = Random_Forest_model.predict([[gen, mar, dep, edu, sem, applicant_income, cap,
                                       Lam, loan_amount_term, creditHistory, pro]])
     verdict = 'Not Eligible' if prediction == 0 else 'Eligible'
     return verdict
